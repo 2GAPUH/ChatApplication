@@ -104,7 +104,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Server", 0));
         grpChats->setTitle(QApplication::translate("MainWindow", "Chats", 0));
         grpClients->setTitle(QApplication::translate("MainWindow", "Clients", 0));
         btnDisconnectAll->setText(QApplication::translate("MainWindow", "Disconnect all", 0));
